@@ -139,7 +139,8 @@ footer a {
     text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .inicio h1 {
     font-family: "Montserrat Alternates", sans-serif;
@@ -160,7 +161,7 @@ footer a {
     width: 100%;
     font-size: 20px;
     padding: 10px;
-    font-family: "Indie Flower";
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -236,9 +237,9 @@ h2 {
     width: 100%;
     font-size: 15px;
     padding: 10px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 200;
-    font-style: normal;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 200;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -269,9 +270,9 @@ h2 {
     width: 100%;
     font-size: 15px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 200;
-    font-style: normal;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 200;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -283,9 +284,9 @@ h2 {
     width: 100%;
     font-size: 15px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -297,9 +298,9 @@ h2 {
     width: 100%;
     font-size: 15px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -434,9 +435,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 200;
-    font-style: normal;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -448,9 +449,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+   font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -462,9 +463,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -476,9 +477,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -490,9 +491,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -504,9 +505,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+   font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -575,9 +576,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -594,9 +595,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+   font-family: "Gamja Flower", sans-serif;
+  font-weight: 00;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -608,9 +609,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -622,7 +623,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -636,7 +637,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -650,7 +651,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -719,7 +720,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -733,7 +734,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -747,7 +748,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -761,7 +762,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -775,7 +776,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -789,7 +790,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+   font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -856,7 +857,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -870,7 +871,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -884,7 +885,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -898,7 +899,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -959,7 +960,7 @@ section {
     width: 100%;
     font-size: 20px;
     padding: 10px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Gamja Flower", sans-serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
