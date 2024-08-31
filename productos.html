@@ -24,63 +24,72 @@
 
 
 
-            <div class="col-md-12 justify-content-center align-items-center container-fluid row">
+            <div class="col-md-12 justify-content-center align-items-center container-fluid row ">
 
 
 
-                <div class="col-md-2 d-flex justify-content-center align-items-center container-fluid ">
+                <div class="col-md-2 d-flex justify-content-center align-items-center container-fluid  ">
                     <a
                         href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        <img src="./imagenes/logomaizfundido.jpg" alt="logo" width="150" height="120" class="p-2">
+                        <img src="./imagenes/logomaizfundido.jpg" class="d-none d-md-block mt-3" alt="logo" width="140"
+                            height="120">
                     </a>
                 </div>
-                <div class="col-md-3 d-flex justify-content-center align-items-center">
+
+                <div class="col-md-5 d-flex justify-content-center align-items-center m-1">
                     <div class="inicio">
-                        <a href="index.html" class="p-1">
-                            <h1>Maíz Fundido</h1>
-                        </a> <br>
+                        <a href="index.html">
+                            <h1>Maíz Fundido </h1>
+                        </a>
+
                     </div>
+                    <a
+                        href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <img src="./imagenes/logomaizfundido.jpg" class=" img-fluid d-block d-md-none" alt="logo"
+                            width="40" height="20">
+
+                    </a>
                 </div>
-                <div class="col-md-5 d-flex justify-content-center align-items-center">
-                    <nav class="menucolor p-1">
-                        <ul class="list-unstyled d-flex justify-content-center flex-wrap">
+
+                <div class="col-md-4 d-flex justify-content-center align-items-center container-fluid">
+                    <nav class="menucolor">
+                        <ul class="list-unstyled d-flex justify-content-center flex-wrap ">
                             <li class="dropdown">
-                                <a href="index.html" href="#">INICIO</a>
+                                <a href="index.html">INICIO</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="index.html#quienessomos">Quienes somos</a></li>
                                     <li><a href="index.html#masinfo">Más información</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="./productos.html" href="#">PRODUCTOS</a>
-                                <ul class="dropdown-menu">
+                                <a href="./productos.html">PRODUCTOS</a>
+                                <ul class="dropdown-menu ">
                                     <li><a href="productos.html#aretes">Aretes</a></li>
                                     <li><a href="productos.html#pines">Pines</a></li>
                                     <li><a href="productos.html#llaveros">Llaveros</a></li>
                                     <li><a href="productos.html#accesoriosns">Docks&Stands</a></li>
                                 </ul>
                             </li>
-
                             <li class="dropdown">
-                                <a href="./comprar.html" href="#">COMPRAR</a>
+                                <a href="./comprar.html">COMPRAR</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="comprar.html#redes">Redes sociales</a></li>
                                     <li><a href="comprar.html#lilimi">LibreLiebre</a></li>
                                     <li><a href="comprar.html#bazar">Bazar</a></li>
                                 </ul>
                             </li>
-
                             <li><a href="preguntas.html">PREGUNTAS</a></li>
                         </ul>
                     </nav>
                 </div>
 
+
             </div>
             <div class="col-md-12 d-flex justify-content-center align-items-center row">
-                <div class="col-md-11 p-1 ">
+                <div class="col-md-11 ">
                     <!--linea divisora-->
 
-                    <hr class="divider">
+                    <hr class="divider mb-2">
 
                 </div>
             </div>
@@ -155,7 +164,7 @@
                     <div class="col-md-10 d-flex justify-content-center align-items-center row">
                         <div class="col-md-4 d-flex justify-content-center align-items-center  m-2">
                             <div class="inter">
-                                <video width="400" height="400" controls>
+                                <video class="video-fluid" controls>
                                     <source src="./imagenes/aretes/ghibliaretes.mp4" type="video/mp4">
                                 </video>
                             </div>
@@ -163,7 +172,7 @@
                         <div class="col-md-1"></div>
                         <div class="col-md-4 d-flex justify-content-center align-items-center m-2" class="img-fluid">
                             <div class="inter">
-                                <video width="400" height="400" controls>
+                                <video class="video-fluid" controls>
                                     <source src="./imagenes/aretes/aretesvarios.mp4" type="video/mp4">
                                 </video>
                             </div>
@@ -185,7 +194,7 @@
                                             <p>$180.00 <br>
                                                 - <br>
                                                 Descripción:
-                                            <div id="extraContent1">
+                                            <div id="extraContent1" style="display: none;">
                                                 Técnica:<br>
                                                 Impresión 3D <br>
                                                 Material: <br>
@@ -198,7 +207,9 @@
                                                 $126.00 (15 piezas iguales o 30 diferentes)
                                             </div>
                                             </p>
-                                            <button id="verMasBtn1">Ver Más</button>
+                                            <button id="verMasBtn1" class="btn btn-primary  d-block mx-auto"
+                                                style="background-color: #bad200; border-color: #bad200;">Ver
+                                                Más</button>
 
                                             <script>
                                                 document.getElementById("verMasBtn1").addEventListener("click", function () {
@@ -223,7 +234,7 @@
                                         <p>$160.00 <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent2">
+                                        <div id="extraContent2" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -236,7 +247,8 @@
                                             $112.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn2">Ver Más</button>
+                                        <button id="verMasBtn2" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn2").addEventListener("click", function () {
@@ -256,12 +268,12 @@
                                 <!-- Tercer apartado -->
                                 <div class="col-md-2 bg-white">
                                     <div id="div-3" class="box">
-                                        <h3>Dito-Gengar</h3>
+                                        <h3>Dito/Gengar</h3>
                                         <img src="./imagenes/aretes/pokemonaretes.jpg" alt="" class="img-fluid">
                                         <p> $100.00 <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent3">
+                                        <div id="extraContent3" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -274,7 +286,8 @@
                                             $70.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn3">Ver Más</button>
+                                        <button id="verMasBtn3" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn3").addEventListener("click", function () {
@@ -298,7 +311,7 @@
                                         <p>$90.00 <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent4">
+                                        <div id="extraContent4" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -311,7 +324,8 @@
                                             $63.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn4">Ver Más</button>
+                                        <button id="verMasBtn4" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn4").addEventListener("click", function () {
@@ -335,7 +349,7 @@
                                         <p>$90.00 <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent5">
+                                        <div id="extraContent5" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -348,7 +362,10 @@
                                             $63.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn5">Ver Más</button>
+                                        <button id="verMasBtn5" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;"
+                                            lass="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn5").addEventListener("click", function () {
@@ -372,7 +389,7 @@
                                         <p>$80.00 <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent6">
+                                        <div id="extraContent6" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -385,7 +402,8 @@
                                             $56.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn6">Ver Más</button>
+                                        <button id="verMasBtn6" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn6").addEventListener("click", function () {
@@ -423,7 +441,7 @@
                                 <div class="col-md-2 bg-white ">
                                     <div class="main d-flex flex-wrap">
                                         <div id="div-7" class="box">
-                                            <h3>Cheems ❤️</h3>
+                                            <h3>Cheems❤️</h3>
                                             <video class="video-fluid" controls>
                                                 <source src="./imagenes/pines/ssstik.io_1724608806625.mp4"
                                                     type="video/mp4">
@@ -432,7 +450,7 @@
                                                 $150.00 cajita<br>
                                                 - <br>
                                                 Descripción:
-                                            <div id="extraContent7">
+                                            <div id="extraContent7" style="display: none;">
                                                 Técnica:<br>
                                                 Impresión 3D <br>
                                                 Material: <br>
@@ -443,7 +461,9 @@
                                                 $105.00 sin cajita (15 piezas iguales o 30 diferentes)
                                             </div>
                                             </p>
-                                            <button id="verMasBtn7">Ver Más</button>
+                                            <button id="verMasBtn7" class="btn btn-primary  d-block mx-auto"
+                                                style="background-color: #bad200; border-color: #bad200;">Ver
+                                                Más</button>
 
                                             <script>
                                                 document.getElementById("verMasBtn7").addEventListener("click", function () {
@@ -468,7 +488,7 @@
                                         <p>$150.00/par <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent8">
+                                        <div id="extraContent8" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -479,7 +499,8 @@
                                             $105.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn8">Ver Más</button>
+                                        <button id="verMasBtn8" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn8").addEventListener("click", function () {
@@ -504,7 +525,7 @@
                                         <p> $150.00/par <br>
                                             - <br>
                                             Descripción:
-                                        <div id="extraContent9">
+                                        <div id="extraContent9" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -515,7 +536,8 @@
                                             $105.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn9">Ver Más</button>
+                                        <button id="verMasBtn9" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn9").addEventListener("click", function () {
@@ -539,7 +561,7 @@
                                         <p>$150.00/par <br>
                                             - <br>
                                             Descripción:
-                                        <div id="extraContent10">
+                                        <div id="extraContent10" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -550,7 +572,8 @@
                                             $105.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn10">Ver Más</button>
+                                        <button id="verMasBtn10" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn10").addEventListener("click", function () {
@@ -574,7 +597,7 @@
                                         <p>$150.00/par <br>
                                             - <br>
                                             Descripción:
-                                        <div id="extraContent11">
+                                        <div id="extraContent11" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -585,7 +608,8 @@
                                             $105.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn11">Ver Más</button>
+                                        <button id="verMasBtn11" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn11").addEventListener("click", function () {
@@ -609,7 +633,7 @@
                                         <p>$200.00 c/u <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent12">
+                                        <div id="extraContent12" style="display: none;">
                                             Pedido personalizado
                                             Técnica:<br>
                                             Impresión 3D <br>
@@ -623,7 +647,8 @@
                                             $56.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn12">Ver Más</button>
+                                        <button id="verMasBtn12" class="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn12").addEventListener("click", function () {
@@ -669,7 +694,7 @@
                                                 $150.00 cajita<br>
                                                 - <br>
                                                 Descripción:
-                                            <div id="extraContent7">
+                                            <div id="extraContent13" style="display: none;">
                                                 Técnica:<br>
                                                 Impresión 3D <br>
                                                 Material: <br>
@@ -680,7 +705,9 @@
                                                 $175.00 sin cajita (15 piezas iguales o 30 diferentes)
                                             </div>
                                             </p>
-                                            <button id="verMasBtn13">Ver Más</button>
+                                            <button id="verMasBtn13" class="btn btn-primary  d-block mx-auto"
+                                                style="background-color: #bad200; border-color: #bad200;">Ver
+                                                Más</button>
 
                                             <script>
                                                 document.getElementById("verMasBtn13").addEventListener("click", function () {
@@ -705,8 +732,8 @@
                                         <p>$180.00/par <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent14">
-                                            Llaveros personalizados
+                                        <div id="extraContent14" style="display: none;">
+                                            Llaveros personalizados<br>
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -717,20 +744,14 @@
                                             $126.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn14">Ver Más</button>
+                                        <button id="verMasBtn14" class="btn btn-primary  d-block mx-auto" style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
-                                            document.getElementById("verMasBtn14").addEventListener("click", function () {
-                                                var content = document.getElementById("extraContent14");
-                                                if (content.style.display === "none") {
-                                                    content.style.display = "block";
-                                                    this.textContent = "Ver Menos";
-                                                } else {
-                                                    content.style.display = "none";
-                                                    this.textContent = "Ver Más";
-                                                }
-                                            });
-                                        </script>
+                                            document.getElementById("verMasBtn14").addEventListener("click", function
+                                            () { var content=document.getElementById("extraContent14"); if
+                                            (content.style.display==="none" ) { content.style.display="block" ;
+                                            this.textContent="Ver Menos" ; } else { content.style.display="none" ;
+                                            this.textContent="Ver Más" ; } }); </script>
                                     </div>
                                 </div>
 
@@ -742,8 +763,8 @@
                                         <p> $120.00/par <br>
                                             - <br>
                                             Descripción:
-                                        <div id="extraContent15">
-                                            Llaveros personalizados
+                                        <div id="extraContent15" style="display: none;">
+                                            Llaveros personalizados<br>
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -754,20 +775,14 @@
                                             $84.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn15">Ver Más</button>
+                                        <button id="verMasBtn15" class="btn btn-primary  d-block mx-auto" style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
-                                            document.getElementById("verMasBtn15").addEventListener("click", function () {
-                                                var content = document.getElementById("extraContent15");
-                                                if (content.style.display === "none") {
-                                                    content.style.display = "block";
-                                                    this.textContent = "Ver Menos";
-                                                } else {
-                                                    content.style.display = "none";
-                                                    this.textContent = "Ver Más";
-                                                }
-                                            });
-                                        </script>
+                                            document.getElementById("verMasBtn15").addEventListener("click", function
+                                            () { var content=document.getElementById("extraContent15"); if
+                                            (content.style.display==="none" ) { content.style.display="block" ;
+                                            this.textContent="Ver Menos" ; } else { content.style.display="none" ;
+                                            this.textContent="Ver Más" ; } }); </script>
                                     </div>
                                 </div>
                                 <!--Cuarto div-->
@@ -778,7 +793,7 @@
                                         <p>$100.00/par <br>
                                             - <br>
                                             Descripción:
-                                        <div id="extraContent16">
+                                        <div id="extraContent16" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -789,20 +804,14 @@
                                             $70.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn16">Ver Más</button>
+                                        <button id="verMasBtn16" class="btn btn-primary  d-block mx-auto" style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
-                                            document.getElementById("verMasBtn16").addEventListener("click", function () {
-                                                var content = document.getElementById("extraContent16");
-                                                if (content.style.display === "none") {
-                                                    content.style.display = "block";
-                                                    this.textContent = "Ver Menos";
-                                                } else {
-                                                    content.style.display = "none";
-                                                    this.textContent = "Ver Más";
-                                                }
-                                            });
-                                        </script>
+                                            document.getElementById("verMasBtn16").addEventListener("click", function
+                                            () { var content=document.getElementById("extraContent16"); if
+                                            (content.style.display==="none" ) { content.style.display="block" ;
+                                            this.textContent="Ver Menos" ; } else { content.style.display="none" ;
+                                            this.textContent="Ver Más" ; } }); </script>
                                     </div>
                                 </div>
                                 <!--Quinto div-->
@@ -813,7 +822,7 @@
                                         <p>$50.00/par <br>
                                             - <br>
                                             Descripción:
-                                        <div id="extraContent17">
+                                        <div id="extraContent17" style="display: none;">
                                             Elije la pieza que mas te guste de todo nuestro cátalogo y ¡hazla llaverito!
                                             <br>
                                             Técnica:<br>
@@ -826,20 +835,14 @@
                                             $35.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn17">Ver Más</button>
+                                        <button id="verMasBtn17" class="btn btn-primary  d-block mx-auto" style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
-                                            document.getElementById("verMasBtn17").addEventListener("click", function () {
-                                                var content = document.getElementById("extraContent17");
-                                                if (content.style.display === "none") {
-                                                    content.style.display = "block";
-                                                    this.textContent = "Ver Menos";
-                                                } else {
-                                                    content.style.display = "none";
-                                                    this.textContent = "Ver Más";
-                                                }
-                                            });
-                                        </script>
+                                            document.getElementById("verMasBtn17").addEventListener("click", function
+                                            () { var content=document.getElementById("extraContent17"); if
+                                            (content.style.display==="none" ) { content.style.display="block" ;
+                                            this.textContent="Ver Menos" ; } else { content.style.display="none" ;
+                                            this.textContent="Ver Más" ; } }); </script>
                                     </div>
                                 </div>
                                 <!--sexto div-->
@@ -850,7 +853,7 @@
                                         <p>$60.00 con pluma <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent18">
+                                        <div id="extraContent18" style="display: none;">
                                             Elije la pieza que mas te guste de todo nuestro cátalogo y ¡hazla llaverito!
                                             <br>
                                             Técnica:<br>
@@ -865,20 +868,14 @@
                                             $42.00 (15 piezas iguales o 30 diferentes)
                                         </div>
                                         </p>
-                                        <button id="verMasBtn18">Ver Más</button>
+                                        <button id="verMasBtn18" class="btn btn-primary  d-block mx-auto" style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
-                                            document.getElementById("verMasBtn18").addEventListener("click", function () {
-                                                var content = document.getElementById("extraContent18");
-                                                if (content.style.display === "none") {
-                                                    content.style.display = "block";
-                                                    this.textContent = "Ver Menos";
-                                                } else {
-                                                    content.style.display = "none";
-                                                    this.textContent = "Ver Más";
-                                                }
-                                            });
-                                        </script>
+                                            document.getElementById("verMasBtn18").addEventListener("click", function
+                                            () { var content=document.getElementById("extraContent18"); if
+                                            (content.style.display==="none" ) { content.style.display="block" ;
+                                            this.textContent="Ver Menos" ; } else { content.style.display="none" ;
+                                            this.textContent="Ver Más" ; } }); </script>
                                     </div>
                                 </div>
                             </div>
@@ -913,7 +910,7 @@
                                             <p>$1000.00 <br>
                                                 - <br>
                                                 Descripción:
-                                            <div id="extraContent19">
+                                            <div id="extraContent19" style="display: none;">
                                                 Técnica:<br>
                                                 Impresión 3D <br>
                                                 Material: <br>
@@ -921,7 +918,9 @@
 
                                             </div>
                                             </p>
-                                            <button id="verMasBtn19">Ver Más</button>
+                                            <button id="verMasBtn19" class="btn btn-primary d-block mx-auto"
+                                                style="background-color: #bad200; border-color: #bad200;">Ver
+                                                Más</button>
 
                                             <script>
                                                 document.getElementById("verMasBtn19").addEventListener("click", function () {
@@ -949,7 +948,7 @@
                                         <p>$1000.00 <br>
                                             -<br>
                                             Descripción:
-                                        <div id="extraContent20">
+                                        <div id="extraContent20" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -957,7 +956,8 @@
 
                                         </div>
                                         </p>
-                                        <button id="verMasBtn20">Ver Más</button>
+                                        <button id="verMasBtn20" class=" btn btn-primary d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn20").addEventListener("click", function () {
@@ -986,14 +986,16 @@
                                         <p> $1000.00 <br>
                                             - <br>
                                             Descripción:
-                                        <div id="extraContent21">
+                                        <div id="extraContent21" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
                                             PLA <br>
                                         </div>
                                         </p>
-                                        <button id="verMasBtn21">Ver Más</button>
+                                        <button id="verMasBtn21" class="btn btn-primary  d-block mx-auto"
+                                            lass="btn btn-primary  d-block mx-auto"
+                                            style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn21").addEventListener("click", function () {
@@ -1021,7 +1023,7 @@
                                         <p>$850.00 <br>
                                             - <br>
                                             Descripción:
-                                        <div id="extraContent22">
+                                        <div id="extraContent22" style="display: none;">
                                             Técnica:<br>
                                             Impresión 3D <br>
                                             Material: <br>
@@ -1029,7 +1031,9 @@
 
                                         </div>
                                         </p>
-                                        <button id="verMasBtn22">Ver Más</button>
+                                        <button id="verMasBtn22" class="btn btn-primary  d-block mx-auto"
+                                        lass="btn btn-primary  d-block mx-auto"
+                                        style="background-color: #bad200; border-color: #bad200;">Ver Más</button>
 
                                         <script>
                                             document.getElementById("verMasBtn22").addEventListener("click", function () {
