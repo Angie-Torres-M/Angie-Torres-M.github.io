@@ -1,13 +1,14 @@
 /* style.css */
 body {
     font-size: 16px;
-   padding-top: 5px;
+    padding-top: 5px;
 }
 
 /* Para pantallas pequeñas */
 @media (max-width: 768px) {
     body {
-        padding-top: 5px; /* Ajusta según la altura del header en móvil */
+        padding-top: 5px;
+        /* Ajusta según la altura del header en móvil */
     }
 }
 
@@ -19,7 +20,8 @@ body {
 
 header {
     background-color: #ffffff;
-    padding-top: auto; /* Espacio para el header fijo */
+    padding-top: auto;
+    /* Espacio para el header fijo */
 
 }
 
@@ -30,10 +32,10 @@ header {
     width: 100%;
     z-index: 1000;
     background-color: #ffffff;
-    
+
 }
 
- 
+
 
 .menucolor {
     background-color: #ffffff;
@@ -80,7 +82,7 @@ h1 {
 }
 
 .inter h2 {
-    color: #748205;
+    color: #92a409;
     text-decoration: wavy;
 }
 
@@ -88,8 +90,8 @@ h1 {
 main {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 5px; 
-    margin-top: 0%;   
+    padding-top: 5px;
+    margin-top: 0%;
 
 }
 
@@ -140,11 +142,11 @@ footer a {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nerko+One&display=swap');
 
 .inicio h1 {
     font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 1000;
+    font-weight: 800;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -152,7 +154,8 @@ footer a {
     text-align: center;
     align-items: center;
     color: #BAD200;
-    font-size: 40px
+    font-size: auto;
+    margin: 20px;
 }
 
 
@@ -161,7 +164,7 @@ footer a {
     width: 100%;
     font-size: 20px;
     padding: 10px;
-    font-family: "Gamja Flower", sans-serif;
+    font-family: "Nerko One", cursive;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -237,9 +240,9 @@ h2 {
     width: 100%;
     font-size: 15px;
     padding: 10px;
-    font-family: "Gamja Flower", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 200;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -270,9 +273,9 @@ h2 {
     width: 100%;
     font-size: 15px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -284,9 +287,9 @@ h2 {
     width: 100%;
     font-size: 15px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -298,9 +301,9 @@ h2 {
     width: 100%;
     font-size: 15px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family:"Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -308,20 +311,7 @@ h2 {
     text-align: center
 }
 
-#extraContent01 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
 
-#extraContent02 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent03 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
 
 
 /*menudesplegable*/
@@ -345,16 +335,21 @@ li {
 
 li a {
     display: block;
-    padding: 10px 15px;
+    padding: 5px ;
     color: rgb(48, 1, 255);
     text-decoration: none;
     background-color: #ffffff;
+    font-size: large;
+    
 }
+
+
+
 
 /* Estilo para el submenú */
 .dropdown-menu {
     display: none;
-    position: absolute;
+       position: absolute;
     top: 100%;
     left: 0;
     background-color: #0000006c;
@@ -371,9 +366,10 @@ li a {
 }
 
 .dropdown-menu li a {
-    padding: 10px;
+    padding: 5px;
     color: rgb(0, 0, 0);
     background-color: #bad2007b;
+    font-size: medium;
 }
 
 /* Mostrar el submenú al pasar el mouse */
@@ -435,9 +431,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -449,9 +445,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-   font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -463,9 +459,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -477,9 +473,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-  font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -491,9 +487,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -505,51 +501,15 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-   font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
     height: auto;
     text-align: center
 }
-
-
-#extraContent1 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent2 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent3 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent4 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent5 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent6 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-
-
-
-
 
 
 
@@ -576,9 +536,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -595,9 +555,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-   font-family: "Gamja Flower", sans-serif;
-  font-weight: 00;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -609,9 +569,9 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
@@ -623,8 +583,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -637,8 +597,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -651,8 +611,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -662,35 +622,6 @@ section {
 }
 
 
-#extraContent7 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent8 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent9 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent10 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent11 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent12 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
 
 
 
@@ -720,8 +651,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -734,8 +665,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -748,8 +679,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family:"Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -762,8 +693,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -776,8 +707,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -790,45 +721,14 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-   font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family:"Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
     /* Alinea horizontalmente */
     height: auto;
     text-align: center
-}
-
-
-#extraContent13 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent14 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent15 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent16 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent17 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent18 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
 }
 
 
@@ -857,8 +757,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -871,8 +771,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -885,8 +785,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -899,8 +799,8 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family: "Gamja Flower", sans-serif;
-    font-weight: 300;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -910,25 +810,6 @@ section {
 }
 
 
-#extraContent19 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent20 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent21 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
-
-#extraContent22 {
-    display: none;
-    /* Oculta el contenido extra por defecto */
-}
 
 /*Compras*/
 
@@ -960,7 +841,7 @@ section {
     width: 100%;
     font-size: 20px;
     padding: 10px;
-    font-family: "Gamja Flower", sans-serif;
+    font-family: "Nerko One", cursive;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -979,6 +860,21 @@ section {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+ h6{
+    font-size: 60px;  
+    font-family: "Caveat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+    
+    display: flex;
+    justify-content: center;
+    /* Alinea horizontalmente */    
+    text-align: center
+
+}
 
 .order-list ul li {
     background-color: #bad20028;
