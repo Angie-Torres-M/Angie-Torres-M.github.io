@@ -1,3 +1,4 @@
+class="d-block w-100"
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +14,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
 
 
     <link rel="stylesheet"
@@ -30,40 +31,35 @@
 
     <div class="container-xxl bg-white">
 
-        <header class="fixed-top" class="header-fijo" class="header header--with-horizontal-nav" role="banner">
+        <header class=" col-md-12 fixed-top header header-fijo header--with-horizontal-nav" role="banner">
 
 
 
-            <div class="col-md-12 justify-content-center align-items-center container-fluid row ">
 
 
+            <div class="justify-content-center align-items-center container-fluid row">
 
-                <div class="col-md-2 d-flex justify-content-center align-items-center container-fluid  ">
+                <div class="col-md-2 d-flex justify-content-start align-items-start container-fluid  ">
                     <a
                         href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                         <img src="./imagenes/logomaizfundido.jpg" class="d-none d-md-block mt-3" alt="logo" width="140"
-                            height="120" >
+                            height="120">
                     </a>
                 </div>
+                <div class="col-md-1"></div>
 
-                <div class="col-md-5 d-flex justify-content-center align-items-center m-1">
-                    <div class="inicio">
-                        <a href="index.html">
-                            <h1>Maíz Fundido </h1>
-                        </a>
-
-                    </div>
-                    <a
-                        href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        <img src="./imagenes/logomaizfundido.jpg"
-                            class=" img-fluid d-block d-md-none" alt="logo"
-                            width="40" height="20">
-
+                <div class="col-md-4 inicio d-none d-md-block">
+                    <a href="index.html">
+                        <h1>Maíz Fundido </h1>
                     </a>
+
                 </div>
 
-                <div class="col-md-4 d-flex justify-content-center align-items-center container-fluid"  >
-                    <nav class="menucolor">
+                <!--menu pagina web-->
+
+
+                <div class="col-md-4">
+                    <nav class="menucolor d-none d-md-block">
                         <ul class="list-unstyled d-flex justify-content-center flex-wrap ">
                             <li class="dropdown">
                                 <a href="index.html">INICIO</a>
@@ -94,10 +90,106 @@
                     </nav>
                 </div>
 
+            </div>
+
+
+            <!--versión header movil-->
+
+            <div class="container-fluid d-block d-md-none">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center text-center">
+                        <!-- Contenido aquí -->
+
+
+                        <a
+                            href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src="./imagenes/logomaizfundido.jpg" alt="logo" width="80" height="60">
+                        </a>
+
+
+
+
+                        <a href="index.html" class="inicio">
+                            <h1>Maíz Fundido </h1>
+                        </a>
+
+
+
+
+                        <!--menu oculto movil-->
+
+
+
+
+                        <nav class="navbar navbar-expand-md navbar-light d-md-none">
+
+                            <button class="navbar-toggler m-2" type="button" data-toggle="collapse"
+                                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <img src="./imagenes/icons8-menú-64.png" width="30" height="30" alt="menu" />
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            INICIO
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="index.html#inimenudesp">Bienvenida</a>
+                                            <a class="dropdown-item" href="index.html#quienessomos">Quienes
+                                                somos</a>
+                                            <a class="dropdown-item" href="index.html#masinfo">Más
+                                                información</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProducts"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            PRODUCTOS
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                                            <a class="dropdown-item" href="productos.html#promenudesp">Destacados</a>
+                                            <a class="dropdown-item" href="productos.html#aretes">Aretes</a>
+                                            <a class="dropdown-item" href="productos.html#pines">Pines</a>
+                                            <a class="dropdown-item" href="productos.html#llaveros">Llaveros</a>
+                                            <a class="dropdown-item" href="productos.html#accesoriosns">Docks&Stands</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBuy"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            COMPRAR
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownBuy">
+                                            <a class="dropdown-item" href="comprar.html#compmenudesp">Opciones</a>
+                                            <a class="dropdown-item" href="comprar.html#redes">Redes</a>
+                                            <a class="dropdown-item" href="comprar.html#lilimi">LibreLiebre</a>
+                                            <a class="dropdown-item" href="comprar.html#bazar">Bazar</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="preguntas.html">PREGUNTAS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+
+                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+                    </div>
+                </div>
 
             </div>
-            <div class="col-md-12 d-flex justify-content-center align-items-center row">
-                <div class="col-md-11 ">
+
+
+            <div class="col-md-12 ">
+                <div class="col-md-12 justify-content-center align-items-center">
                     <!--linea divisora-->
 
                     <hr class="divider mb-2">
@@ -108,6 +200,19 @@
 
 
         <main>
+
+
+            <div class="container-fluid my-4">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 col-lg-8 options-container" id="compmenudesp">
+                        <h2>Opciones de Compra 
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        
+
+
             <div class="col-md-12 container-fluid ">
                 <section id="redes" class="d-flex flex-wrap container-fluid">
                     <div class="col-md-10 d-flex justify-content-center align-items-center container-fluid row  ">
@@ -164,7 +269,7 @@
                                         <ul>
                                             <li>Una breve descripción de lo que deseas (colores, medidas, etc.).</li>
                                         </ul>
-                                    
+
                                         <ul>
 
                                             <li>El tipo de producto que deseas (aretes, llaveros, pines, etc.).</li>
@@ -175,7 +280,7 @@
                                                 etc.).
                                             </li>
                                         </ul>
-                                    
+
                                         <ul>
                                             <li>La forma de entrega que te conviene (entrega personal o envío).</li>
                                         </ul>
@@ -196,11 +301,11 @@
                     <div class="col-md-10 d-flex justify-content-center align-items-center container-fluid row  ">
                         <div class="order-section">
                             <div class="col-md-12 " class="link">
-                                <h2>                                    
-                                        <a href="https://libreliebre.com"> <img src="./imagenes/libreliebrelogo.avif"
-                                                width="200px" alt="">
-                                        </a>
-                                    
+                                <h2>
+                                    <a href="https://libreliebre.com"> <img src="./imagenes/libreliebrelogo.avif"
+                                            width="200px" alt="">
+                                    </a>
+
                                 </h2>
 
                                 <div class="col-md-12">
@@ -209,17 +314,19 @@
                                 </div>
                                 <div class="col-md-12 justify-content-center align-items-center text-center row ">
 
-                                    <h5>Link tienda en linea  <span>&#8594</span>  <a href="https://libreliebre.com/collections/maiz-fundido" class="me-2 me-md-4">
-                                        <span class="material-symbols-outlined"
-                                            style="color: #bad200; font-size: 30px;">
-                                            shopping_cart_checkout
-                                        </span>
-                                    </a>
-                                 </h5>
+                                    <h5>Link tienda en linea <span>&#8594</span> <a
+                                            href="https://libreliebre.com/collections/maiz-fundido"
+                                            class="me-2 me-md-4">
+                                            <span class="material-symbols-outlined"
+                                                style="color: #bad200; font-size: 30px;">
+                                                shopping_cart_checkout
+                                            </span>
+                                        </a>
+                                    </h5>
 
 
-                                                        
-                                
+
+
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center align-items-center">
                                     <div class="col-md-12 d-flex justify-content-center align-items-center">
@@ -247,30 +354,36 @@
                                 </div>
                                 <div class="col-md-12 row m-3">
                                     <div class="col-md-4 bg-white">
-                                        <div class="main d-flex flex-wrap justify-content-center align-items-center text-center">
+                                        <div
+                                            class="main d-flex flex-wrap justify-content-center align-items-center text-center">
                                             <h4>LibreLiebreMini Bolivar</h4>
                                             <iframe
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4688195821627!2d-99.14057382532623!3d19.435343640594287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92cfaa8509f%3A0x5cfa1d4231bcf7f8!2sLibre%20Liebre%20mini%20-%20Bolivar!5e0!3m2!1ses-419!2smx!4v1724980117743!5m2!1ses-419!2smx"
-                                                width="auto" height="auto" class="container-fluid" style="border:0;" allowfullscreen=""
-                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                width="auto" height="auto" class="container-fluid" style="border:0;"
+                                                allowfullscreen="" loading="lazy"
+                                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                     </div>
                                     <div id="fin" class="col-md-4 bg-white">
-                                        <div class="main d-flex flex-wrap justify-content-center align-items-center text-center">
+                                        <div
+                                            class="main d-flex flex-wrap justify-content-center align-items-center text-center">
                                             <h4>LibreLiebreMini Alameda</h4>
                                             <iframe
                                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15049.785952250328!2d-99.1462639!3d19.4363074!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9ee8afe6fc1%3A0x658e020f3a6a6080!2sLibre%20Liebre%20mini%20-%20Alameda!5e0!3m2!1ses-419!2smx!4v1724861515849!5m2!1ses-419!2smx"
-                                                width="auto" height="auto" class="container-fluid" style="border:0;" allowfullscreen=""
-                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                width="auto" height="auto" class="container-fluid" style="border:0;"
+                                                allowfullscreen="" loading="lazy"
+                                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                     </div>
                                     <div id="fin" class="col-md-4 bg-white">
-                                        <div class="main d-flex flex-wrap justify-content-center align-items-center text-center ">
+                                        <div
+                                            class="main d-flex flex-wrap justify-content-center align-items-center text-center ">
                                             <h4>LibreLiebreMini Tacubaya</h4>
                                             <iframe
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1302486547306!2d-99.1870912253269!3d19.406777541506102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff0033171843%3A0x6181a5ef79035c48!2sLibre%20Liebre%20Mini!5e0!3m2!1ses-419!2smx!4v1724980179244!5m2!1ses-419!2smx"
-                                                width="auto" height="auto" class="container-fluid" style="border:0;" allowfullscreen=""
-                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                width="auto" height="auto" class="container-fluid" style="border:0;"
+                                                allowfullscreen="" loading="lazy"
+                                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                     </div>
 
@@ -285,7 +398,7 @@
 
 
                 <!--Tercera sección bazares-->
-               
+
                 <section id="bazar" class="d-flex main flex-wrap container-fluid">
                     <div class="col-md-10 d-flex justify-content-center align-items-center container-fluid row  ">
                         <div class="order-section">
@@ -325,19 +438,24 @@
                                                 <div
                                                     class="carousel-inner justify-content-center align-items-center col-md-4">
                                                     <div class="carousel-item active">
-                                                        <img src="./imagenes/productosinicio/stand.jpg" alt="stand">
+                                                        <img src="./imagenes/productosinicio/stand.jpg"
+                                                            class="d-block w-100" alt="stand">
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img src="./imagenes/productosinicio/stand2.jpg" alt="stand2">
+                                                        <img src="./imagenes/productosinicio/stand2.jpg"
+                                                            class="d-block w-100" alt="stand2">
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img src="./imagenes/productosinicio/stand3.jpg" alt="stand3">
+                                                        <img src="./imagenes/productosinicio/stand3.jpg"
+                                                            class="d-block w-100" alt="stand3">
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img src="./imagenes/productosinicio/stand4.jpg" alt="stand4">
+                                                        <img src="./imagenes/productosinicio/stand4.jpg"
+                                                            class="d-block w-100" alt="stand4">
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img src="./imagenes/productosinicio/stand5.jpg" alt="stand5">
+                                                        <img src="./imagenes/productosinicio/stand5.jpg"
+                                                            class="d-block w-100" alt="stand5">
                                                     </div>
                                                 </div>
 
