@@ -95,6 +95,94 @@ main {
 
 }
 
+main h2 {
+    color: #158064;
+    text-decoration: wavy;
+    font-size: auto;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/*encabezado paginas*/
+.options-container {
+    background-color: #f8f9fa; /* Fondo gris claro */
+    padding: 20px; /* Espaciado interior */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Alineación del texto al centro */
+}
+.options-container h2 {
+    font-size: auto; /* Tamaño del texto del encabezado */
+    color: #158064; /* Color del texto */
+}
+
+
+
+
+/* Estilos para pantallas medianas y grandes (el código que ya tienes) */
+@media (min-width: 768px) {
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #0000006c;
+        min-width: 160px;
+        z-index: 1000;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .dropdown-menu li {
+        display: block;
+    }
+
+    .dropdown-menu li a {
+        padding: 5px;
+        color: rgb(0, 0, 0);
+        background-color: #bad2007b;
+        font-size: medium;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/* Estilos para pantallas pequeñas como móviles */
+@media (max-width: 767px) {
+    .navbar .dropdown-menu {
+        display: none;
+        position: static; /* Cambia a estático para que ocupe espacio en el flujo normal del documento */
+        background-color: #bad20043; /* Ajusta los colores si es necesario */
+        min-width: 100%; /* Asegura que el menú ocupe todo el ancho del contenedor */
+        padding: 10px 0; /* Ajusta el padding si es necesario */
+        position: absolute;
+    }
+
+    .navbar .dropdown-menu.show {
+        display: block;
+    }
+
+    .navbar .dropdown-menu li a {
+        padding: 10px 20px; /* Ajusta el padding para pantallas pequeñas */
+        color: white;
+        background-color: #bad200; /* Ajusta el color si es necesario */
+        font-size: large;
+    }
+
+    /* Asegura que el dropdown se despliegue cuando se haga clic en el botón */
+    .navbar-toggler.collapsed + .navbar-collapse .dropdown-menu {
+        display: block;
+    }
+}
+
+
+
+
+
 
 
 .box {
@@ -154,10 +242,15 @@ footer a {
     text-align: center;
     align-items: center;
     color: #BAD200;
-    font-size: auto;
+    font-size:auto;
     margin: 20px;
+    
 }
 
+
+.inicio {
+    text-decoration: none;
+}
 
 
 .presentation p {
@@ -314,7 +407,7 @@ h2 {
 
 
 
-/*menudesplegable*/
+/*xdesplegable*/
 
 /* Estilos básicos para el menú */
 nav {
@@ -347,35 +440,6 @@ li a {
 
 
 /* Estilo para el submenú */
-.dropdown-menu {
-    display: none;
-       position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #0000006c;
-    min-width: 160px;
-    z-index: 1000;
-    /* Asegura que el submenú esté por encima de otros elementos */
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.dropdown-menu li {
-    display: block;
-}
-
-.dropdown-menu li a {
-    padding: 5px;
-    color: rgb(0, 0, 0);
-    background-color: #bad2007b;
-    font-size: medium;
-}
-
-/* Mostrar el submenú al pasar el mouse */
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
 
 
 

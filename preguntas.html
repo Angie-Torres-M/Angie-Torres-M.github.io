@@ -29,39 +29,35 @@
 
     <div class="container-xxl bg-white">
 
-        <header class="fixed-top" class="header-fijo" class="header header--with-horizontal-nav" role="banner">
+        <header class=" col-md-12 fixed-top header header-fijo header--with-horizontal-nav" role="banner">
 
 
 
-            <div class="col-md-12 justify-content-center align-items-center container-fluid row ">
 
 
+            <div class="justify-content-center align-items-center container-fluid row">
 
-                <div class="col-md-2 d-flex justify-content-center align-items-center container-fluid  ">
+                <div class="col-md-2 d-flex justify-content-start align-items-start container-fluid  ">
                     <a
                         href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                         <img src="./imagenes/logomaizfundido.jpg" class="d-none d-md-block mt-3" alt="logo" width="140"
                             height="120">
                     </a>
                 </div>
+                <div class="col-md-1"></div>
 
-                <div class="col-md-5 d-flex justify-content-center align-items-center m-1">
-                    <div class="inicio">
-                        <a href="index.html">
-                            <h1>Maíz Fundido </h1>
-                        </a>
-
-                    </div>
-                    <a
-                        href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        <img src="./imagenes/logomaizfundido.jpg" class=" img-fluid d-block d-md-none" alt="logo"
-                            width="40" height="20">
-
+                <div class="col-md-4 inicio d-none d-md-block">
+                    <a href="index.html">
+                        <h1>Maíz Fundido </h1>
                     </a>
+
                 </div>
 
-                <div class="col-md-4 d-flex justify-content-center align-items-center container-fluid">
-                    <nav class="menucolor">
+                <!--menu pagina web-->
+
+
+                <div class="col-md-4">
+                    <nav class="menucolor d-none d-md-block">
                         <ul class="list-unstyled d-flex justify-content-center flex-wrap ">
                             <li class="dropdown">
                                 <a href="index.html">INICIO</a>
@@ -92,10 +88,106 @@
                     </nav>
                 </div>
 
+            </div>
+
+
+            <!--versión header movil-->
+
+            <div class="container-fluid d-block d-md-none">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center text-center">
+                        <!-- Contenido aquí -->
+
+
+                        <a
+                            href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src="./imagenes/logomaizfundido.jpg" alt="logo" width="80" height="60">
+                        </a>
+
+
+
+
+                        <a href="index.html" class="inicio">
+                            <h1>Maíz Fundido </h1>
+                        </a>
+
+
+
+
+                        <!--menu oculto movil-->
+
+
+
+
+                        <nav class="navbar navbar-expand-md navbar-light d-md-none">
+
+                            <button class="navbar-toggler m-2" type="button" data-toggle="collapse"
+                                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <img src="./imagenes/icons8-menú-64.png" width="30" height="30" alt="menu" />
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            INICIO
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="index.html#inimenudesp">Bienvenida</a>
+                                            <a class="dropdown-item" href="index.html#quienessomos">Quienes
+                                                somos</a>
+                                            <a class="dropdown-item" href="index.html#masinfo">Más
+                                                información</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProducts"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            PRODUCTOS
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                                            <a class="dropdown-item" href="productos.html#promenudesp">Destacados</a>
+                                            <a class="dropdown-item" href="productos.html#aretes">Aretes</a>
+                                            <a class="dropdown-item" href="productos.html#pines">Pines</a>
+                                            <a class="dropdown-item" href="productos.html#llaveros">Llaveros</a>
+                                            <a class="dropdown-item" href="productos.html#accesoriosns">Docks&Stands</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBuy"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            COMPRAR
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownBuy">
+                                            <a class="dropdown-item" href="comprar.html#compmenudesp">Opciones</a>
+                                            <a class="dropdown-item" href="comprar.html#redes">Redes</a>
+                                            <a class="dropdown-item" href="comprar.html#lilimi">LibreLiebre</a>
+                                            <a class="dropdown-item" href="comprar.html#bazar">Bazar</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="preguntas.html">PREGUNTAS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+
+                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+                    </div>
+                </div>
 
             </div>
-            <div class="col-md-12 d-flex justify-content-center align-items-center row">
-                <div class="col-md-11 ">
+
+
+            <div class="col-md-12 ">
+                <div class="col-md-12 justify-content-center align-items-center">
                     <!--linea divisora-->
 
                     <hr class="divider mb-2">
@@ -108,7 +200,14 @@
         <main>
 
 
-
+            <div class="container-fluid my-4">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 col-lg-8 options-container" id="inimenudesp">
+                        <h2>Preguntas frecuentes
+                        </h2>
+                    </div>
+                </div>
+            </div>
 
 
             <div class="container">
