@@ -84,24 +84,20 @@ class="d-block w-100"
                         </ul>
                     </nav>
                 </div>
-                <div class="col-md-1 d-flex justify-content-end align-items-end main flex-wrap">
-
+                <div class="col-md-1 d-flex justify-content-end align-items-end main flex-wrap d-md-block d-none">
                     <a
-                    href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                    <img src="./imagenes/inicio/Instagram-app-logo.jpg" width="25px" height="25px" alt="logoinsta"
-                        class="m-1">
-                </a>
-
-
-                <a href="https://www.facebook.com/MaizFundidoo/?locale=es_LA"><img
-                        src="./imagenes/inicio/fblogo.png" width="25px" height="25px" alt="logofb" class="m-1">
-                </a>
-
-                <a href="https://www.tiktok.com/@maiz_fundido"><img src="./imagenes/inicio/tiktok.png"
-                        width="25px" height="25px" alt="logotiktok" class="m-1">
-                </a>
-
+                        href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <img src="./imagenes/inicio/Instagram-app-logo.jpg" width="22px" height="22px" alt="logoinsta"
+                            class="m-1">
+                    </a>
+                    <a href="https://www.facebook.com/MaizFundidoo/?locale=es_LA">
+                        <img src="./imagenes/inicio/fblogo.png" width="22px" height="22px" alt="logofb" class="m-1">
+                    </a>
+                    <a href="https://www.tiktok.com/@maiz_fundido">
+                        <img src="./imagenes/inicio/tiktok.png" width="22px" height="22px" alt="logotiktok" class="m-1">
+                    </a>
                 </div>
+
             </div>
 
 
@@ -109,26 +105,27 @@ class="d-block w-100"
 
             <!--versión header movil-->
 
-            <div class="container-fluid d-block d-md-none">
+            <div class="d-block d-md-none">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center align-items-center text-center">
                         <!-- Contenido aquí -->
+                        
+                        <div class="col-md-4">
+                            <a href="index.html">
+                                <img src="./imagenes/logomaizfundido2en1.jpg" alt="logo" width="180px"
+                                    class="img-fluid m-3">
+                            </a>
 
-
-                        <a href="index.html">
-                            <img src="./imagenes/logomaizfundido2en1.jpg" alt="logo" width="200px"
-                                class="img-fluid m-3">
-                        </a>
-
-
+                        </div>
                         <!--menu oculto movil-->
 
 
-                        <nav class="navbar navbar-light d-md-none">
+                        
+                        <nav class="navbar navbar-dark bg-white d-md-none col-md-4">
 
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <img src="./imagenes/icons8-menú-64.png" width="40" height="40" alt="menu" />
+                                <img src="./imagenes/icons8-menú-64.png" width="60" height="60" alt="menu" />
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
@@ -152,7 +149,7 @@ class="d-block w-100"
                                             PRODUCTOS
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
-                                            <a class="dropdown-item" href="productos.html#promenudesp">Destacados</a>
+                                            <a class="dropdown-item" href="productos.html#promenudesp">Accesorios</a>
                                             <a class="dropdown-item" href="productos.html#aretes">Aretes</a>
                                             <a class="dropdown-item" href="productos.html#pines">Pines</a>
                                             <a class="dropdown-item" href="productos.html#llaveros">Llaveros</a>
@@ -179,13 +176,51 @@ class="d-block w-100"
                             </div>
                         </nav>
 
-
+                        <script>
+                            document.addEventListener('click', function (event) {
+                                var menu = document.getElementById('navbarNav');
+                                var isClickInsideMenu = menu.contains(event.target);
+                                var isClickOnToggle = document.querySelector('.navbar-toggler').contains(event.target);
+                        
+                                if (!isClickInsideMenu && !isClickOnToggle) {
+                                    if (menu.classList.contains('show')) {
+                                        var bsCollapse = new bootstrap.Collapse(menu, {
+                                            toggle: false
+                                        });
+                                        bsCollapse.hide();
+                                    }
+                                }
+                            });
+                        </script>
                         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
                         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
                         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+                        
+
+                        <div
+                            class="col-md-1 d-flex justify-content-center align-items-center main flex-wrap row d-md-none d-block">
+                            <a
+                                href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                                <img src="./imagenes/inicio/Instagram-app-logo.jpg" width="20px" height="20px"
+                                    alt="logoinsta" class="m-1">
+                            </a>
+                            <a href="https://www.facebook.com/MaizFundidoo/?locale=es_LA">
+                                <img src="./imagenes/inicio/fblogo.png" width="20px" height="20px" alt="logofb"
+                                    class="m-1">
+                            </a>
+                            <a href="https://www.tiktok.com/@maiz_fundido">
+                                <img src="./imagenes/inicio/tiktok.png" width="20px" height="20px" alt="logotiktok"
+                                    class="m-1">
+                            </a>
+
+                        </div>
+
+
                     </div>
+
                 </div>
+
 
             </div>
 
@@ -207,14 +242,20 @@ class="d-block w-100"
         </header>
 
 
+
         <main>
 
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap" rel="stylesheet">
+            
+            
 
             <div class="container-fluid my-4">
                 <div class="row justify-content-center">
-                    <div class="col-md-12 col-lg-8 options-container" id="compmenudesp">
-                        <h2>Opciones de Compra 
-                        </h2>
+                    <div class="col-md-12 " id="compmenudesp">
+                        <h2>Opciones de Compra <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#748205"><path d="M180-80q-24.75 0-42.37-17.63Q120-115.25 120-140v-530q0-24.75 17.63-42.38Q155.25-730 180-730h110q0-78 53.5-134T475-920q80.92 0 137.96 55Q670-810 670-730h110q24.75 0 42.38 17.62Q840-694.75 840-670v530q0 24.75-17.62 42.37Q804.75-80 780-80H180Zm0-60h600v-530H180v530Zm300-290q79 0 137-58t58-137h-60q0 55-40 95t-95 40q-55 0-95-40t-40-95h-60q0 79 58 137t137 58ZM350-730h260q0-55-37.5-92.5T480-860q-55 0-92.5 37.5T350-730ZM180-140v-530 530Z"/></svg>
+                         </h2>
                     </div>
                 </div>
             </div>
@@ -226,7 +267,7 @@ class="d-block w-100"
                     <div class="col-md-10 d-flex justify-content-center align-items-center container-fluid row  ">
                         <div class="order-section">
                             <div class="col-md-12  ">
-                                <h2>Redes sociales</h2>
+                                <h3>Redes sociales</h3>
                                 <p>Elige el diseño que prefieras de las muchas fotos que tenemos en nuestras redes, o
                                     solicita
                                     uno personalizado. Haz tu pedido a través de nuestras redes sociales.</p>
@@ -309,12 +350,12 @@ class="d-block w-100"
                     <div class="col-md-10 d-flex justify-content-center align-items-center container-fluid row  ">
                         <div class="order-section">
                             <div class="col-md-12 " class="link">
-                                <h2>
+                                <h3>
                                     <a href="https://libreliebre.com"> <img src="./imagenes/libreliebrelogo.avif"
                                             width="200px" alt="">
                                     </a>
 
-                                </h2>
+                                </h3>
 
                                 <div class="col-md-12">
                                     <p>En Libre Liebre podrás encontrar algunos modelos que seleccionamos para ti.
@@ -412,7 +453,7 @@ class="d-block w-100"
                         <div class="order-section">
                             <div class="col-md-12 d-flex justify-content-center align-items-center row ">
                                 <div class="col-md-6 " class="link">
-                                    <h2>Bazar</h2>
+                                    <h3>Bazar</h3>
                                     <p>Lamentamos informarte que, por el momento, no estamos participando en bazares ni
                                         eventos
                                         presenciales. Esta decisión se debe a que estamos dando prioridad a la venta en

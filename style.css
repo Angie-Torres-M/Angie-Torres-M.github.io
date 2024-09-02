@@ -80,6 +80,7 @@ h1 {
 .presentation h2 {
     color: #748205;
     text-decoration: wavy;
+    
 }
 
 .inter h2 {
@@ -96,30 +97,117 @@ main {
 
 }
 
-main h2 {
-    color: #158064;
-    text-decoration: wavy;
-    font-size: auto;
-    font-style: italic;
-    font-weight: bold;
+main p {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        /* Alinea horizontalmente */
+        text-align: center;
+        align-items: center;
+        color: #000000;
+        font-weight:400;
+    
 }
+
+main h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    /* Alinea horizontalmente */
+    text-align: center;
+    align-items: center;
+    color: #748205;
+    font-size:xxx-large;
+}
+main h2 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    /* Alinea horizontalmente */
+    text-align: center;
+    align-items: center;
+    color: #748205;
+    font-size: xx-large;
+    
+}
+
+main h3 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    /* Alinea horizontalmente */
+    text-align: center;
+    align-items: center;
+    color: #748205;
+    
+}
+
+main h4 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    /* Alinea horizontalmente */
+    text-align: center;
+    align-items: center;
+    color: #748205;
+    
+}
+
+
+main h5  {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    /* Alinea horizontalmente */
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    
+}
+
+
+
+
 
 
 /*encabezado paginas*/
 .options-container {
-    background-color: #f8f9fa; /* Fondo gris claro */
-    padding: 20px; /* Espaciado interior */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    text-align: center; /* Alineación del texto al centro */
+    background-color: #f8f9fa;
+    /* Fondo gris claro */
+    padding: 20px;
+    /* Espaciado interior */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    text-align: center;
+    /* Alineación del texto al centro */
 }
-.options-container h2 {
-    font-size: auto; /* Tamaño del texto del encabezado */
-    color: #158064; /* Color del texto */
+
+
+
+
+/*iconos redes header*/
+.main a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
-
-
-
 
 /* Estilos para pantallas medianas y grandes (el código que ya tienes) */
 @media (min-width: 768px) {
@@ -143,7 +231,7 @@ main h2 {
     .dropdown-menu li a {
         padding: 5%;
         color: #000000;
-        background-color: #bad2007b;
+        background-color: #bad2005c;
         font-size: medium;
     }
 
@@ -155,14 +243,16 @@ main h2 {
 /* Estilos para pantallas pequeñas como móviles */
 @media (max-width: 767px) {
     .navbar .dropdown-menu {
-        background-color: #bad20023; /* Ajusta los colores si es necesario */
-      min-width: 100%; /* Asegura que el menú ocupe todo el ancho del contenedor */
-        padding: 10px 0; /* Ajusta el padding si es necesario */
-        position: absolute; /* Posiciona el menú de forma que se sobreponga al header */
-    top: 100%; /* Alinea el menú justo debajo del botón desplegable */
-    left: 0; /* Alinea el menú a la izquierda del botón desplegable */
-    z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
-    display: none; /* Oculta el menú por defecto */
+        display: none;
+        position: static;
+        /* Cambia a estático para que ocupe espacio en el flujo normal del documento */
+        background-color: #ffffff;
+        /* Ajusta los colores si es necesario */
+        min-width: 100%;
+        /* Asegura que el menú ocupe todo el ancho del contenedor */
+        padding: 10px 0;
+        /* Ajusta el padding si es necesario */
+
     }
 
     .navbar .dropdown-menu.show {
@@ -170,35 +260,87 @@ main h2 {
     }
 
     .navbar .dropdown-menu li a {
-        padding: 10px 20px; /* Ajusta el padding para pantallas pequeñas */
+        padding: 10px 20px;
+        /* Ajusta el padding para pantallas pequeñas */
         color: white;
-        background-color: #bad200; /* Ajusta el color si es necesario */
-        font-size: large;
+        background-color: #000000;
+        /* Ajusta el color si es necesario */
+        font-size: small;
+
     }
 
     /* Asegura que el dropdown se despliegue cuando se haga clic en el botón */
-    .navbar-toggler.collapsed + .navbar-collapse .dropdown-menu {
+    .navbar-toggler.collapsed+.navbar-collapse .dropdown-menu {
         display: block;
-        position: absolute; /* Posiciona el menú de forma que se sobreponga al header */
-        top: 100%; /* Alinea el menú justo debajo del botón desplegable */
-        left: 0; /* Alinea el menú a la izquierda del botón desplegable */
-        z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
-        display: none; /* Oculta el menú por defecto */
     }
+}
 
-    
+/*desplegable movi*/
+/* Hacer que el menú desplegable flote */
+
+#navbarNav li {
+    background-color: #bad2005c;
+    color: #000;
+    border-radius: 20%;
+    padding: 0px;
+    margin: 10px;
+
+}
+
+#navbarNav a {
+    color: #000000;
+    border-radius: 10%;
+    padding: 0px;
+    margin: 10px;
+
+}
+
+
+/*quitar contorni negro al botón*/
+
+
+.navbar-toggler:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+
 }
 
 
 
+#navbarNav {
+    position: absolute;
+    /* Para que el menú flote */
+    z-index: 1000;
+    /* Asegura que esté por encima de otros elementos */
+    right: 0;
+    /* Alinea a la izquierda, puedes ajustar según necesites */
+    top: 100%;
+    /* Alinea el menú justo debajo del botón de dropdown */
+    margin-top: 0.5rem;
+    /* Espacio entre el menú y el botón */
+    background-color: #ffffff;
+    border-radius: 10%;
 
 
-/*xdesplegable*/
+}
+
+/* Agregar padding entre cada enlace del menú desplegable */
+.dropdown-item {
+    padding: 10px 20px;
+    /* Ajusta el padding según tus necesidades */
+    display: block;
+    /* Asegura que el enlace ocupe todo el espacio disponible */
+    color: #000;
+    /* Color del texto */
+}
+
+
 
 /* Estilos básicos para el menú */
 nav {
     background-color: #ffffff;
     padding: 10px;
+
 }
 
 ul {
@@ -214,12 +356,13 @@ li {
 
 li a {
     display: block;
-    padding: 5px ;
+    padding: 5px;
     color: #2D830E;
     text-decoration: none;
     background-color: #ffffff;
     font-size: large;
-    
+    border-radius: 10%;
+
 }
 
 
@@ -271,52 +414,16 @@ footer a {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.inicio h1 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    /* Alinea horizontalmente */
-    text-align: center;
-    align-items: center;
-    color: #BAD200;
-    font-size:auto;
-    margin: 20px;
-    
-}
-
 
 .inicio {
     text-decoration: none;
 }
 
 
-.presentation p {
-    width: 100%;
-    font-size: 20px;
-    padding: 10px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    /* Alinea horizontalmente */
-    height: auto;
-    text-align: center
-}
 
-h2 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 1000;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    /* Alinea horizontalmente */
-    text-align: center;
-    align-items: center;
-    color: #000000;
-}
+
+ 
+
 
 .bg-primary {
     padding: 10px 0;
@@ -368,32 +475,7 @@ h2 {
     /* Mueve el botón derecho un poco más hacia afuera */
 }
 
-.info p {
-    width: 100%;
-    font-size: 15px;
-    padding: 10px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    /* Alinea horizontalmente */
-    height: auto;
-    text-align: center
-}
 
-.info h3 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    /* Alinea horizontalmente */
-    text-align: center;
-    align-items: center;
-    color: #BAD200;
-    font-size: 25px
-}
 
 .info img {
     padding: 5px;
@@ -433,7 +515,7 @@ h2 {
     width: 100%;
     font-size: 15px;
     padding: 0px;
-    font-family:"Montserrat Alternates", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
     display: flex;
@@ -484,13 +566,7 @@ section {
     align-items: center;
 }
 
-#aretes h2 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #BAD200;
-    font-size: 40px
-}
+
 
 #extraContent1 {
     width: 100%;
@@ -589,13 +665,7 @@ section {
 
 }
 
-#pines h2 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #BAD200;
-    font-size: 40px
-}
+
 
 #extraContent7 {
     width: 100%;
@@ -693,7 +763,7 @@ section {
 
 
 #llaveros {
-    background-color: #f2f7cd7f;
+    background-color: #f9d2f96e;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -703,13 +773,7 @@ section {
 
 }
 
-#llaveros h2 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #BAD200;
-    font-size: 40px
-}
+
 
 
 #extraContent13 {
@@ -744,7 +808,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family:"Montserrat Alternates", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
     display: flex;
@@ -786,7 +850,7 @@ section {
     width: 100%;
     font-size: 12px;
     padding: 0px;
-    font-family:"Montserrat Alternates", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
     display: flex;
@@ -799,7 +863,7 @@ section {
 
 
 #accesoriosns {
-    background-color: #f5ccec8e;
+    background-color: #f5e8bd8e;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -809,13 +873,7 @@ section {
 
 }
 
-#accesoriosns h2 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #BAD200;
-    font-size: 40px
-}
+
 
 
 #extraContent19 {
@@ -887,18 +945,7 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.order-section h2 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    /* Alinea horizontalmente */
-    text-align: center;
-    align-items: center;
-    color: #748205;
 
-}
 
 
 
@@ -927,18 +974,17 @@ section {
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 
- h6{
-    font-size: 60px;  
+h6 {
+    font-size: 60px;
     font-family: "Caveat", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;  
-    
+    font-style: normal;
+
     display: flex;
     justify-content: center;
-    /* Alinea horizontalmente */    
+    /* Alinea horizontalmente */
     text-align: center
-
 }
 
 .order-list ul li {
@@ -1004,4 +1050,3 @@ section {
     font-weight: normal;
     font-size: 0.9em
 }
-

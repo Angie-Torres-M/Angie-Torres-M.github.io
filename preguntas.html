@@ -82,24 +82,20 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-md-1 d-flex justify-content-end align-items-end main flex-wrap">
-
+                <div class="col-md-1 d-flex justify-content-end align-items-end main flex-wrap d-md-block d-none">
                     <a
                         href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        <img src="./imagenes/inicio/Instagram-app-logo.jpg" width="25px" height="25px" alt="logoinsta"
+                        <img src="./imagenes/inicio/Instagram-app-logo.jpg" width="22px" height="22px" alt="logoinsta"
                             class="m-1">
                     </a>
-
-
-                    <a href="https://www.facebook.com/MaizFundidoo/?locale=es_LA"><img
-                            src="./imagenes/inicio/fblogo.png" width="25px" height="25px" alt="logofb" class="m-1">
+                    <a href="https://www.facebook.com/MaizFundidoo/?locale=es_LA">
+                        <img src="./imagenes/inicio/fblogo.png" width="22px" height="22px" alt="logofb" class="m-1">
                     </a>
-
-                    <a href="https://www.tiktok.com/@maiz_fundido"><img src="./imagenes/inicio/tiktok.png"
-                            width="25px" height="25px" alt="logotiktok" class="m-1">
+                    <a href="https://www.tiktok.com/@maiz_fundido">
+                        <img src="./imagenes/inicio/tiktok.png" width="22px" height="22px" alt="logotiktok" class="m-1">
                     </a>
-
                 </div>
+
             </div>
 
 
@@ -107,26 +103,27 @@
 
             <!--versión header movil-->
 
-            <div class="container-fluid d-block d-md-none">
+            <div class="d-block d-md-none">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center align-items-center text-center">
                         <!-- Contenido aquí -->
+                        
+                        <div class="col-md-4">
+                            <a href="index.html">
+                                <img src="./imagenes/logomaizfundido2en1.jpg" alt="logo" width="180px"
+                                    class="img-fluid m-3">
+                            </a>
 
-
-                        <a href="index.html">
-                            <img src="./imagenes/logomaizfundido2en1.jpg" alt="logo" width="150px"
-                                class="img-fluid m-3">
-                        </a>
-
-
+                        </div>
                         <!--menu oculto movil-->
 
 
-                        <nav class="navbar navbar-light d-md-none ">
+                        
+                        <nav class="navbar navbar-dark bg-white d-md-none col-md-4">
 
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <img src="./imagenes/icons8-menú-64.png" width="40" height="40" alt="menu" />
+                                <img src="./imagenes/icons8-menú-64.png" width="60" height="60" alt="menu" />
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
@@ -150,7 +147,7 @@
                                             PRODUCTOS
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
-                                            <a class="dropdown-item" href="productos.html#promenudesp">Destacados</a>
+                                            <a class="dropdown-item" href="productos.html#promenudesp">Accesorios</a>
                                             <a class="dropdown-item" href="productos.html#aretes">Aretes</a>
                                             <a class="dropdown-item" href="productos.html#pines">Pines</a>
                                             <a class="dropdown-item" href="productos.html#llaveros">Llaveros</a>
@@ -177,13 +174,51 @@
                             </div>
                         </nav>
 
-
+                        <script>
+                            document.addEventListener('click', function (event) {
+                                var menu = document.getElementById('navbarNav');
+                                var isClickInsideMenu = menu.contains(event.target);
+                                var isClickOnToggle = document.querySelector('.navbar-toggler').contains(event.target);
+                        
+                                if (!isClickInsideMenu && !isClickOnToggle) {
+                                    if (menu.classList.contains('show')) {
+                                        var bsCollapse = new bootstrap.Collapse(menu, {
+                                            toggle: false
+                                        });
+                                        bsCollapse.hide();
+                                    }
+                                }
+                            });
+                        </script>
                         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
                         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
                         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+                        
+
+                        <div
+                            class="col-md-1 d-flex justify-content-center align-items-center main flex-wrap row d-md-none d-block">
+                            <a
+                                href="https://www.instagram.com/maiz_fundido?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                                <img src="./imagenes/inicio/Instagram-app-logo.jpg" width="20px" height="20px"
+                                    alt="logoinsta" class="m-1">
+                            </a>
+                            <a href="https://www.facebook.com/MaizFundidoo/?locale=es_LA">
+                                <img src="./imagenes/inicio/fblogo.png" width="20px" height="20px" alt="logofb"
+                                    class="m-1">
+                            </a>
+                            <a href="https://www.tiktok.com/@maiz_fundido">
+                                <img src="./imagenes/inicio/tiktok.png" width="20px" height="20px" alt="logotiktok"
+                                    class="m-1">
+                            </a>
+
+                        </div>
+
+
                     </div>
+
                 </div>
+
 
             </div>
 
@@ -204,14 +239,20 @@
             </div>
         </header>
 
-
         <main>
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap" rel="stylesheet">
+            
+            
+
 
 
             <div class="container-fluid my-4">
                 <div class="row justify-content-center">
-                    <div class="col-md-12 col-lg-8 options-container" id="inimenudesp">
-                        <h2>Preguntas frecuentes
+                    <div class="col-md-12 " id="inimenudesp">
+                        <h2>Preguntas frecuentes <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#748205"><path d="M543-340q16.6 0 28.8-12.2T584-381q0-16.6-12.2-28.8T543-422q-16.6 0-28.8 12.2T502-381q0 16.6 12.2 28.8T543-340Zm-25-126h47q2-29 8.5-43t32.5-39q27-26 37.5-45.4Q654-612.79 654-639q0-45.88-31.5-74.94Q591-743 540-743q-38 0-68 20.5T428-665l45 19q11-25 27.5-38t39.5-13q29.78 0 48.39 17T607-637q0 20-9 35t-32 32q-32 29-40 46.5t-8 57.5ZM260-200q-24 0-42-18t-18-42v-560q0-24 18-42t42-18h560q24 0 42 18t18 42v560q0 24-18 42t-42 18H260Zm0-60h560v-560H260v560ZM140-80q-24 0-42-18t-18-42v-620h60v620h620v60H140Zm120-740v560-560Z"/></svg>
                         </h2>
                     </div>
                 </div>
