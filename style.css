@@ -464,7 +464,7 @@ footer a {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #BAD200;
+    background-color: #738205c0;
     /* Fondo semitransparente para los iconos */
     border-radius: 10%;
     padding: 10px;
@@ -1027,3 +1027,26 @@ video {
     border-radius: 5%;
 }
 
+#masinfo button {
+    background-color: #738205bf; 
+    border-color: #748205;
+}
+#aretes button {
+    background-color: #738205bf; 
+    border-color: #748205;
+}
+
+#pines button {
+    background-color: #738205bf; 
+    border-color: #748205;
+}
+
+#llaveros button {
+    background-color: #738205bf; 
+    border-color: #748205;
+}
+
+#accesoriosns button {
+    background-color: #738205bf; 
+    border-color: #748205;
+}
