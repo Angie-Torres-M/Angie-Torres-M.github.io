@@ -357,7 +357,7 @@ li {
 li a {
     display: block;
     padding: 5px;
-    color: #2D830E;
+    color: #748205;
     text-decoration: none;
     background-color: #ffffff;
     font-size: large;
@@ -445,7 +445,7 @@ footer a {
 
 .carousel-item img {
     object-fit: cover;
-    height: 450px;
+    height: 350px;
     /* Ajusta la altura de las imágenes del carrusel */
 }
 
@@ -480,6 +480,7 @@ footer a {
 .info img {
     padding: 5px;
     margin: 5px;
+    border-radius: 15%;
 }
 
 /*Pagina inicio ver mas*/
@@ -938,31 +939,12 @@ section {
 
 .order-section {
     background-color: #fff;
-    padding: 2rem;
-    margin: 2rem auto;
+    padding: 1rem;
+    margin: 1rem auto;
     max-width: 600px;
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-
-
-
-
-.order-section p {
-    width: 100%;
-    font-size: 20px;
-    padding: 10px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    /* Alinea horizontalmente */
-    height: auto;
-    text-align: center
-}
-
 
 
 .order-list {
@@ -987,15 +969,6 @@ h6 {
     text-align: center
 }
 
-.order-list ul li {
-    background-color: #bad20028;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-
-}
 
 .order-list li {
     width: 100%;
@@ -1014,9 +987,7 @@ h6 {
 
 
 .order-list li:before {
-    content: 'select_check_box ';
-    /* Necesario para usar el pseudo-elemento */
-    display: inline-block;
+  
     font-family: 'Material Symbols Outlined';
     /* Fuente de los íconos */
     font-variation-settings:
@@ -1024,18 +995,13 @@ h6 {
         'wght' 400,
         'GRAD' 0,
         'opsz' 24;
-    margin-right: 0.75rem;
-    color: #4CAF50;
+    margin-right: 0;
+    color: #748205;
     /* Color del ícono */
-    font-size: 40px;
-    /* Tamaño del ícono */
-    /* No es necesario el font-weight aquí ya que los íconos no usan font-weight */
+    font-size: 30px;
+    content: 'arrow_right';
 }
-
-.order-list li::before {
-    content: 'select_check_box';
-    /* Nombre del ícono */
-}
+ 
 
 
 .link p a {
@@ -1050,3 +1016,13 @@ h6 {
     font-weight: normal;
     font-size: 0.9em
 }
+
+
+/*carrusel*/
+.carousel-inner img {
+    border-radius: 5%;
+}
+video {
+    border-radius: 5%;
+}
+
