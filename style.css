@@ -495,7 +495,11 @@ footer a {
     border-radius: 15%;
 }
 
-
+.infodescripcion img {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15%;
+}
 
 /*linea divisoria*/
 .divider {
